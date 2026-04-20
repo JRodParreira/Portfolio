@@ -19,13 +19,6 @@ Este portfólio foi desenvolvido com:
 - Vite
 - React 
 - Tailwind CSS
-- Estrutura do projeto
-portfolio/
-├── public/
-├── src/
-├── index.html
-├── package.json
-└── vite.config.js
 
 ## Projetos em destaque
 
@@ -48,9 +41,5 @@ O objetivo deste portfólio é:
 
 Se quiser trabalhar comigo ou falar sobre um projeto:
 
-LinkedIn: [(https://www.linkedin.com/in/josé-parreira-397744201/)]
-Email: (hello@joseparreira.com)
-
-## Nota final
-
-Se gostou do projeto, sinta-se à vontade para deixar uma ⭐ no repositório!
+- LinkedIn: (https://www.linkedin.com/in/josé-parreira-397744201/)
+- Email: (hello@joseparreira.com)
