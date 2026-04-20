@@ -109,7 +109,7 @@ function Home() {
                 </div>
                 <div className="flex min-h-[400px] items-center justify-center border-l-2 border-slate-200 bg-slate-100 p-8 dark:border-white/8 dark:bg-white/[0.03] lg:w-[55%]">
                   <img
-                    src="src/assets/HOS_Dashboard.png"
+                    src="../assets/HOS_Dashboard.png"
                     alt={t('allProjectsPage.imageAlt.hospitality')}
                     className="theme-image rounded-2xl border border-gray-200 bg-white text-gray-300 shadow-sm transition-transform duration-500 group-hover:scale-105 dark:border-white/10"
                   />
@@ -138,7 +138,7 @@ function Home() {
                 </div>
                 <div className="flex min-h-[400px] items-center justify-center border-l-2 border-slate-200 bg-slate-100 p-8 dark:border-white/8 dark:bg-[#0c1118] lg:w-[55%]">
                   <img
-                    src="src/assets/FB_Dashboard.webp"
+                    src="../assets/FB_Dashboard.webp"
                     alt={t('allProjectsPage.imageAlt.foodbridge')}
                     className="theme-image rounded-2xl border border-slate-200 bg-white text-center text-gray-500 shadow-md transition-transform duration-500 group-hover:scale-105 dark:border-white/10 dark:bg-white/[0.04]"
                   />
