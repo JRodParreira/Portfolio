@@ -1,19 +1,56 @@
-# Portfolio
-=======
-# React + Vite
+# Bem-vindo ao meu portfólio!
+Este projeto apresenta uma coleção dos meus trabalhos em UX/UI Design e Frontend Development, com foco em criar experiências digitais modernas, funcionais e orientadas ao utilizador.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre mim
 
-Currently, two official plugins are available:
+Sou um UX/UI Designer & Frontend Developer focado em criar interfaces intuitivas e experiências digitais que resolvem problemas reais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tenho especial interesse em:
 
-## React Compiler
+Design centrado no utilizador
+Interfaces modernas e minimalistas
+Produtos digitais escaláveis
+Conversão e usabilidade
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+Este portfólio foi desenvolvido com:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Vite
+- React 
+- Tailwind CSS
+- Estrutura do projeto
+portfolio/
+├── public/
+├── src/
+├── index.html
+├── package.json
+└── vite.config.js
 
+## Projetos em destaque
+
+Este portfólio inclui projetos focados em:
+
+- UX Research & Case Studies
+- UI Design (Figma)
+- Aplicações web responsivas
+- Redesigns de produtos digitais
+
+## Objetivo
+
+O objetivo deste portfólio é:
+
+- Demonstrar as minhas competências técnicas e criativas
+- Ajudar empresas a melhorar a experiência dos seus produtos
+- Conseguir oportunidades como freelancer ou colaborador em equipas de produto
+
+## Contacto
+
+Se quiser trabalhar comigo ou falar sobre um projeto:
+
+LinkedIn: [(https://www.linkedin.com/in/josé-parreira-397744201/)]
+Email: (hello@joseparreira.com)
+
+## Nota final
+
+Se gostou do projeto, sinta-se à vontade para deixar uma ⭐ no repositório!
