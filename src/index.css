@@ -1,0 +1,252 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sora: "Sora", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+:root {
+  font-family: var(--font-inter);
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  /* --surface: #ffffff;
+  --surface-elevated: #f8fafc; */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border: rgba(15, 23, 42, 0.12);
+  --border-strong: rgba(15, 23, 42, 0.16);
+  --accent: #5b55e6;
+  --accent-soft: rgba(91, 85, 230, 0.1);
+  --shadow-soft: 0 18px 55px rgba(15, 23, 42, 0.08);
+}
+
+.dark {
+  --bg-primary: #0b0f14;
+  --bg-secondary: #111827;
+  --bg-tertiary: #1f2937;
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-elevated: rgba(255, 255, 255, 0.06);
+  --text-primary: #e5e7eb;
+  --text-secondary: #9ca3af;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.12);
+  --accent: #8b8ff8;
+  --accent-soft: rgba(139, 143, 248, 0.14);
+  --shadow-soft: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+}
+
+.theme-page {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.theme-glass {
+  border-color: rgba(15, 23, 42, 0.12);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.08);
+}
+
+.dark .theme-glass {
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 14px 40px rgba(0, 0, 0, 0.22);
+}
+
+.theme-card {
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-soft);
+}
+
+.dark .theme-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.025));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.035),
+    0 20px 45px rgba(0, 0, 0, 0.22);
+}
+
+.theme-soft {
+  background: var(--bg-secondary);
+}
+
+.theme-soft-strong {
+  background: var(--bg-tertiary);
+}
+
+.theme-image {
+  transition: filter 300ms ease;
+}
+
+.dark .theme-image {
+  filter: brightness(0.9) contrast(1.08);
+}
+
+.dark .premium-dark-panel {
+  background:
+    radial-gradient(circle at top, rgba(99, 102, 241, 0.12), transparent 32%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.02));
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.035),
+    0 26px 60px rgba(0, 0, 0, 0.24);
+}
+
+.dark .premium-dark-surface {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.018));
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.03),
+    0 22px 56px rgba(0, 0, 0, 0.22);
+}
+
+.dark .premium-dark-muted {
+  background: rgba(255, 255, 255, 0.035);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.dark .premium-dark-section {
+  background:
+    radial-gradient(circle at top, rgba(99, 102, 241, 0.09), transparent 28%),
+    linear-gradient(180deg, #10151d 0%, #0b0f14 100%);
+}
+
+.dark .theme-page :is(.text-slate-950, .text-slate-900, .text-slate-800, .text-gray-900) {
+  color: var(--text-primary);
+}
+
+.dark .theme-page :is(.text-slate-700, .text-slate-600, .text-slate-500, .text-slate-400, .text-gray-600, .text-gray-500, .text-gray-400) {
+  color: var(--text-secondary);
+}
+
+.dark .theme-page :is(.border-gray-100, .border-gray-200, .border-slate-200, .border-slate-300, .border-indigo-100, .border-indigo-200) {
+  border-color: var(--border);
+}
+
+.dark .theme-page :is(.bg-indigo-50, .bg-indigo-100) {
+  background-color: var(--accent-soft);
+}
+
+.dark .theme-page :is(.text-indigo-600, .text-indigo-700, .text-indigo-500, .text-indigo-400) {
+  color: var(--accent);
+}
+
+.dark .theme-page :is(.bg-indigo-600) {
+  background-color: #6366f1;
+}
+
+.dark .theme-page :is(.hover\:bg-indigo-700:hover) {
+  background-color: #5458da;
+}
+
+.dark .theme-page :is(.bg-slate-950, .bg-\[\#111827\], .bg-\[\#1C1F26\], .bg-\[\#192135\], .bg-slate-800) {
+  background-color: #111827;
+}
+
+.dark .theme-page :is(.text-white) {
+  color: #f3f4f6;
+}
+
+.dark .theme-page :is(.border-white\/60, .border-white\/70, .border-white\/80, .border-white\/90, .border-white\/20, .border-slate-700\/80, .border-slate-300\/70, .border-white\/15) {
+  border-color: var(--border);
+}
+
+.dark .theme-page :is(.bg-white\/70, .bg-white\/75, .bg-white\/80, .bg-white\/85, .bg-white\/88, .bg-white\/90) {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.dark .theme-page :is(.bg-slate-300\/80, .bg-slate-100\/80) {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.dark .theme-page :is(.from-white, .via-white, .to-white, .to-white\/80) {
+  --tw-gradient-to: rgba(17, 24, 39, 0.8) var(--tw-gradient-to-position);
+}
+
+.dark .theme-page :is(.from-indigo-200\/70, .via-indigo-100\/80, .from-indigo-200\/70) {
+  --tw-gradient-from: rgba(17, 24, 39, 0.92) var(--tw-gradient-from-position);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+.dark .theme-page :is(.via-indigo-100\/80) {
+  --tw-gradient-via: rgba(31, 41, 55, 0.92) var(--tw-gradient-via-position);
+  --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+}
+
+.font-sora {
+  letter-spacing: -0.02em;
+}
+
+:where(
+  body,
+  nav,
+  footer,
+  section,
+  main,
+  button,
+  a,
+  input,
+  textarea,
+  select,
+  img
+) {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow, filter;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  :where(
+    body,
+    nav,
+    footer,
+    section,
+    main,
+    button,
+    a,
+    input,
+    textarea,
+    select,
+    img
+  ) {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
