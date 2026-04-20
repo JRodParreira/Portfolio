@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/" className="flex items-center gap-3 group">
           <div className="w-8 h-8 bg-indigo-600 text-white rounded flex items-center justify-center text-xs font-bold transition-transform group-hover:scale-110 shadow-sm">
             <img
-              src="/src/assets/logo.svg"
+              src="../assets/logo.svg"
               alt={t('common.personName')}
               className="w-full h-full p-1 group-hover:scale-105 transition-transform duration-500 text-center"
             />
