@@ -154,7 +154,7 @@ function Navbar() {
             <ThemeIcon size={18} />
           </button>
 
-          <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-1.5 rounded-md transition-all duration-300 font-semibold min-w-[140px] flex items-center justify-center shadow-sm dark:shadow-none">
+          <button href="https://www.linkedin.com/in/josé-parreira-397744201/" className="bg-indigo-600 hover:bg-indigo-700 text-white py-1.5 rounded-md transition-all duration-300 font-semibold min-w-[140px] flex items-center justify-center shadow-sm dark:shadow-none">
             <FadeText>{t('nav.contact')}</FadeText>
           </button>
         </div>
