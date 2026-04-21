@@ -48,9 +48,9 @@ function Home() {
             {t('hero.ctaProjects')}
             <ArrowRight size={20} />
           </a>
-          <button href="mailto:hello@joseparreira.com" className="premium-dark-surface rounded-xl border-2 border-slate-300 bg-white px-8 py-4 font-bold text-gray-900 shadow-[0_10px_30px_rgba(15,23,42,0.05)] transition-all hover:-translate-y-0.5 hover:border-slate-400 dark:border-white/10 dark:bg-white/[0.03] dark:text-slate-100 dark:hover:border-white/15">
+          <a href="mailto:hello@joseparreira.com" className="premium-dark-surface rounded-xl border-2 border-slate-300 bg-white px-8 py-4 font-bold text-gray-900 shadow-[0_10px_30px_rgba(15,23,42,0.05)] transition-all hover:-translate-y-0.5 hover:border-slate-400 dark:border-white/10 dark:bg-white/[0.03] dark:text-slate-100 dark:hover:border-white/15">
             {t('hero.ctaWork')}
-          </button>
+          </a>
         </div>
       </Reveal>
 
