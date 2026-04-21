@@ -326,7 +326,7 @@ export const translations = {
         ],
       },
       problem: {
-        title: "sProblem",
+        title: "Problem",
         desc: "Many restaurants generate surplus food daily, but lack efficient systems to redistribute it. At the same time, charities struggle to access consistent food sources. Existing solutions are either fragmented or difficult to use, leading to wasted resources and missed opportunities.",
         manual: { title: "Manual Records", desc: "Prone to human error." },
         silos: { title: "Data Silos", desc: "No real-time visibility." },
@@ -796,7 +796,7 @@ export const translations = {
         ],
       },
       problem: {
-        title: "ssProblema",
+        title: "Problema",
         desc: "Muitos restaurantes geram excedentes alimentares todos os dias, mas não têm sistemas eficientes para os redistribuir. Ao mesmo tempo, as instituições têm dificuldade em aceder a fontes consistentes de alimentos. As soluções existentes são fragmentadas ou difíceis de usar, o que leva a desperdício e oportunidades perdidas.",
         manual: { title: "Registos Manuais", desc: "Propensos a erro humano." },
         silos: { title: "Silos de Dados", desc: "Sem visibilidade em tempo real." },

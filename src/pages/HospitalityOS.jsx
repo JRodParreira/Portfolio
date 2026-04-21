@@ -192,7 +192,7 @@ function HospitalityOS() {
               </Reveal>
             ))}
           </div>
-          <h1 className="mb-8 font-sora text-6xl font-bold leading-[1.02] tracking-tighter text-slate-950 dark:text-slate-50 md:text-7xl">
+          <h1 className="mb-8 font-sora text-5xl md:text-6xl font-bold leading-[1.02] tracking-tighter text-slate-950 dark:text-slate-50 md:text-7xl">
             {t('common.projectNames.hospitality')}
           </h1>
           <p className="mx-auto mb-16 max-w-4xl font-inter text-xl font-medium leading-relaxed text-slate-600 dark:text-slate-400 md:text-2xl">
