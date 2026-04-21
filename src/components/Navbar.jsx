@@ -96,9 +96,9 @@ function Navbar() {
             <ThemeIcon size={18} />
           </button>
 
-          <button className="flex min-w-[140px] items-center justify-center rounded-md bg-indigo-600 py-1.5 font-semibold text-white shadow-sm transition-all duration-300 hover:bg-indigo-700 dark:shadow-[0_14px_32px_rgba(99,102,241,0.26)] dark:hover:shadow-[0_18px_38px_rgba(99,102,241,0.32)]">
+          <a href="https://www.linkedin.com/in/josé-parreira-397744201/" className="flex min-w-[140px] items-center justify-center rounded-md bg-indigo-600 py-1.5 font-semibold text-white shadow-sm transition-all duration-300 hover:bg-indigo-700 dark:shadow-[0_14px_32px_rgba(99,102,241,0.26)] dark:hover:shadow-[0_18px_38px_rgba(99,102,241,0.32)]">
             <FadeText>{t('nav.contact')}</FadeText>
-          </button>
+          </a>
         </div>
       </div>
 
