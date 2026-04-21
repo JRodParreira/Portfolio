@@ -21,7 +21,7 @@ function Breadcrumb({ pageName, isProject = false }) {
   }, []);
   
   return (
-    <div className="theme-glass sticky top-[82px] md:top-[79px] z-40 border-y border-indigo-200/60 bg-gradient-to-r from-indigo-200/70 via-indigo-100/80 to-white/80 backdrop-blur-md dark:border-white/8 dark:bg-gradient-to-r dark:from-[#151d2b]/96 dark:via-[#111827]/94 dark:to-[#0b1017]/94">
+    <div className="theme-glass sticky md:top-[79px] z-40 border-y border-indigo-200/60 bg-gradient-to-r from-indigo-200/70 via-indigo-100/80 to-white/80 backdrop-blur-md dark:border-white/8 dark:bg-gradient-to-r dark:from-[#151d2b]/96 dark:via-[#111827]/94 dark:to-[#0b1017]/94">
       <div
         className={`max-w-7xl mx-auto flex flex-col justify-between px-8 transition-all duration-300 sm:flex-row sm:items-center ${
           isCompact ? 'gap-3 py-3' : 'gap-4 py-5'
