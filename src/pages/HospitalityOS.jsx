@@ -595,7 +595,7 @@ function HospitalityOS() {
                 {t('hospitalityPage.finalCta.primary')}
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/josé-parreira-397744201/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-3 rounded-xl border border-slate-200 bg-white px-8 py-4 font-semibold text-slate-900 transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:bg-slate-50 dark:border-white/10 dark:bg-white/[0.04] dark:text-slate-100 dark:hover:bg-white/[0.08]"

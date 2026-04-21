@@ -42,13 +42,13 @@ function Home() {
 
         <div className="flex flex-wrap items-center gap-4">
           <a
-            href="projects"
+            to="/projects"
             className="flex items-center gap-2 rounded-xl bg-indigo-600 px-8 py-4 font-bold text-white shadow-lg shadow-indigo-100 transition-all hover:-translate-y-0.5 hover:bg-indigo-700 dark:shadow-indigo-900 dark:hover:shadow-indigo-600"
           >
             {t('hero.ctaProjects')}
             <ArrowRight size={20} />
           </a>
-          <button className="premium-dark-surface rounded-xl border-2 border-slate-300 bg-white px-8 py-4 font-bold text-gray-900 shadow-[0_10px_30px_rgba(15,23,42,0.05)] transition-all hover:-translate-y-0.5 hover:border-slate-400 dark:border-white/10 dark:bg-white/[0.03] dark:text-slate-100 dark:hover:border-white/15">
+          <button href="mailto:hello@joseparreira.com" className="premium-dark-surface rounded-xl border-2 border-slate-300 bg-white px-8 py-4 font-bold text-gray-900 shadow-[0_10px_30px_rgba(15,23,42,0.05)] transition-all hover:-translate-y-0.5 hover:border-slate-400 dark:border-white/10 dark:bg-white/[0.03] dark:text-slate-100 dark:hover:border-white/15">
             {t('hero.ctaWork')}
           </button>
         </div>
@@ -163,7 +163,7 @@ function Home() {
                 <Mail size={20} />
                 {t('cta.email')}
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-8 py-4 font-bold text-slate-900 transition-all duration-300 hover:-translate-y-0.5 hover:bg-slate-200 sm:w-auto dark:border dark:border-white/10 dark:bg-white/[0.04] dark:text-slate-100 dark:hover:bg-white/[0.08]">
+              <a href="https://www.linkedin.com/in/josé-parreira-397744201/" target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-8 py-4 font-bold text-slate-900 transition-all duration-300 hover:-translate-y-0.5 hover:bg-slate-200 sm:w-auto dark:border dark:border-white/10 dark:bg-white/[0.04] dark:text-slate-100 dark:hover:bg-white/[0.08]">
                 <Linkedin size={20} />
                 {t('cta.linkedin')}
               </a>
