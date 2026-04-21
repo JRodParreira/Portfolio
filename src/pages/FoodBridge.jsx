@@ -414,7 +414,7 @@ function FoodBridge() {
           </Reveal>
 
           {/* 4. SYSTEM OVERVIEW */}
-            <Reveal as="section" className="mt-12 overflow-hidden rounded-[2.5rem] border border-slate-200 bg-slate-50 px-4 dark:border-white/6 dark:bg-[#10161f] md:px-8 hidden sm:block">
+            <Reveal as="section" className="mt-12 overflow-hidden rounded-[2.5rem] border border-slate-200 bg-slate-50 px-4 dark:border-white/6 dark:bg-[#10161f] md:px-8 hidden lg:block">
               <div className="py-12 relative w-full flex flex-col items-center">
                 <div className="flex justify-center items-start gap-8 md:gap-16 lg:gap-24 relative z-10 w-full max-w-5xl mx-auto">
                   <Node icon={Package} label={t('foodBridgePage.personas.operator.t')} side="left" />
