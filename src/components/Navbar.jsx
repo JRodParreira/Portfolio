@@ -4,6 +4,7 @@ import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
 import { FadeText } from '../components/FadeText';
+import logoImage from '../assets/logo.svg';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ function Navbar() {
         <Link to="/" className="flex items-center gap-3 group">
           <div className="w-8 h-8 bg-indigo-600 text-white rounded flex items-center justify-center text-xs font-bold transition-transform group-hover:scale-110 shadow-sm">
             <img
-              src="../assets/logo.svg"
+              src={logoImage}
               alt={t('common.personName')}
               className="w-full h-full p-1 group-hover:scale-105 transition-transform duration-500 text-center"
             />

@@ -4,6 +4,8 @@ import { ArrowRight } from 'lucide-react';
 import Breadcrumb from '../components/Breadcrumb';
 import { useLanguage } from '../context/LanguageContext';
 import Reveal from '../components/Reveal';
+import hosDashboardImage from '../assets/HOS_Dashboard.webp';
+import foodBridgeDashboardImage from '../assets/FB_Dashboard.webp';
 
 function Projects() {
   const { t } = useLanguage();
@@ -17,7 +19,7 @@ function Projects() {
       imageBg: 'bg-gray-100 dark:bg-white/[0.03]',
       imgBg: 'bg-white dark:bg-white/[0.04]',
       border: 'border-gray-200 dark:border-white/10',
-      img: 'src/assets/HOS_Dashboard.webp',
+      img: hosDashboardImage,
       alt: 'allProjectsPage.imageAlt.hospitality',
     },
     {
@@ -28,7 +30,7 @@ function Projects() {
       imageBg: 'bg-[#1C1F26] dark:bg-[#0c1118]',
       imgBg: 'bg-[#2A2E39] dark:bg-white/[0.04]',
       border: 'border-[#3A3F4E] dark:border-white/10',
-      img: 'src/assets/FB_Dashboard.webp',
+      img: foodBridgeDashboardImage,
       alt: 'allProjectsPage.imageAlt.foodbridge',
     }
   ];

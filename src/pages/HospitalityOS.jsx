@@ -418,7 +418,7 @@ function HospitalityOS() {
           </div>
 
            {/* 5. SYSTEM OVERVIEW */}
-            <Reveal as="section" className=" mt-24 bg-slate-50 py-12 overflow-hidden rounded-[2.5rem] border border-slate-200 px-4 md:px-8 dark:bg-[#0b0f14]">
+            <Reveal as="section" className=" mt-24 bg-slate-50 py-12 overflow-hidden rounded-[2.5rem] border border-slate-200 px-4 md:px-8 dark:bg-[#0b0f14] hidden sm:block">
               <div className="relative w-full flex flex-col items-center">
                 <div className="flex justify-center items-start gap-12 md:gap-32 relative z-10 w-full max-w-3xl mx-auto">
                   <SystemNode icon={ClipboardList} label={t('hospitalityPage.personas.house.t')} side="left" />
